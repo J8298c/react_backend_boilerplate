@@ -17,6 +17,6 @@ const userSchema = new Schema({
 
 const User = mongoose.model('User', userSchema);
 
-mongoose.connect('mongodb://root:root@ds045644.mlab.com:45644/flashgym')
+mongoose.connect('put your db addr here');
 
 module.exports = User;
